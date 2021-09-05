@@ -46,9 +46,9 @@ export function App() {
   };
 
   const reset = () => {
-    setTime(0);
-    setWatchOn(false);
-    setStatus(0);
+    setTime(1);
+    setWatchOn(true);
+    setStatus(1);
   };
 
   return (
